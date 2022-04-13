@@ -1,0 +1,31 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+@import './variables';
+
+.wp-block-fourmi-e-exergue {
+	// border: 1px dotted #f00;
+
+	font-weight: 300;
+
+    font-size: $fontSize * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, xs) * 1.25px;
+    line-height: $inter-lineHeightComputed * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, xs) * 1.25px;
+
+	@media (min-width: map-get($breakpoints, sm)) {
+        font-size: $fontSize * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, sm) * 1.25px;
+        line-height: $inter-lineHeightComputed * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, sm) * 1.25px;
+    }
+
+    @media (min-width: map-get($breakpoints, md)) {
+        font-size: $fontSize * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, md) * 1.25px;
+        line-height: $inter-lineHeightComputed * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, md) * 1.25px;
+    }
+
+    @media (min-width: map-get($breakpoints, lg)) {
+        font-size: $fontSize * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, lg) * 1.25px;
+        line-height: $inter-lineHeightComputed * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, lg) * 1.25px;
+    }
+}

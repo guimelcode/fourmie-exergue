@@ -1,0 +1,22 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+@import './variables';
+
+
+.wp-block-fourmi-e-exergue {
+	// background-color: #21759b;
+	// color: #fff;
+	// padding: 2px;
+	* {
+
+		font-weight: 300;
+
+		font-size: $fontSize * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, xs) * 1.5px;
+		line-height: $inter-lineHeightComputed * map-get($typoMod, texte-1) * map-get($typoResponsiveCourant, xs) * 1.5px;
+	}
+}

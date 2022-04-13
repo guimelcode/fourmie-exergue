@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "fourmi-e/exergue",
+	"version": "0.1.0",
+	"title": "Fourmie Exergue",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Block de texte en exergue.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fourmie-exergue",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "div",
+			"default": ""
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,30 @@
+/* Break points */
+$breakpoints: (xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px);
+
+/* Typographies */
+ $fontSize: 16;
+ $inter-capHeight: 1.05;
+ $american-capHeight: .95;
+ $lineHeight: 18;
+ $inter-lineHeightComputed: ($lineHeight * $inter-capHeight);
+
+ $typoMod: (titre-1: 3.8,
+	 titre-2: 3,
+	 titre-3: 2.4,
+	 titre-4: 1.8,
+	 texte-1: 1,
+	 texte-2: 1.25,
+	 wideScreen: 1.15,
+ );
+
+
+ $typoResponsiveCourant: (xs: 1.1,
+	 sm: 1.05,
+	 md: 1,
+	 lg: 1.05,
+ );
